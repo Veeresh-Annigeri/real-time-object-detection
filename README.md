@@ -26,10 +26,13 @@ be applied to image file, video file or also to webcam feed. To use YOLO via Ope
 # Results:
 * Input Image1:
 ![office](https://user-images.githubusercontent.com/93006885/138569866-82142c0a-cf4e-4f77-9ac8-95a9394742a5.jpg)
+
 * Output Image1:
 ![office_result](https://user-images.githubusercontent.com/93006885/138569849-c83afeb7-0c59-4242-a030-08a8a719f70c.jpg)
+
 * Input Image2:
 ![test_image21](https://user-images.githubusercontent.com/93006885/138569947-2dd95cba-7ba7-4f4d-9b5e-1578fd63e7a3.jpg)
+
 * Output Image2:
 ![test_image21_result](https://user-images.githubusercontent.com/93006885/138569940-8b26c651-f641-44f8-88ea-0b31d7c3bc42.jpg)
 
@@ -41,9 +44,9 @@ Object Detection is breaking into wide scope of enterprises, with use cases exte
 * COUNTING THE CROWDS: Crowd counting or people counting is another significant application of object detection. During a big festival, or in a crowded mall this application comes in handy as it helps in dissecting the crowd and measure different groups. SELF-DRIVING CARS: Another unique application of object detection technique is definitely self-driving cars. A self-driving car can only navigate through a street safely if it could detect all the objects such as people, other cars, road signs on the road, in order to decide what action to take.
 * DETECTING A VEHICLE: In a road full of speeding vehicles object detection can help in a big way by tracking a particular vehicle and even its number plate. So, if a car gets into an accident or, breaks traffic rules then it is easier to detect that particular car using object detection model and thereby decreasing the rate of crime while enhancing security.
 
-# Limitation:
+# Limitations:
 Arguably the largest limitation and drawback of the YOLO object detector is that:
-It does not always handle small objects well
-It especially does not handle objects grouped close together
-The reason for this limitation is due to the YOLO algorithm itself:
-The YOLO object detector divides an input image into an SxS grid where each cell in the grid predicts only a single object. If there exist multiple, small objects in a single cell then YOLO will be unable to detect them, ultimately leading to missed object detections.
+* It does not always handle small objects well.
+* It especially does not handle objects grouped close together.
+  The reason for this limitation is due to the YOLO algorithm itself:
+  The YOLO object detector divides an input image into an SxS grid where each cell in the grid predicts only a single object. If there exist multiple, small objects in a single cell then YOLO will be unable to detect them, ultimately leading to missed object detections.
