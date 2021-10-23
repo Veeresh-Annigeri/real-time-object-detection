@@ -8,6 +8,16 @@ When it comes to object detection, popular detection frameworks are
 * Faster R-CNN
 * Support for running YOLO/DarkNet has been added to OpenCV dnn module recently.
 
+There are two approaches to Object detection and they are:
+* Two-shot detection 
+* Single-shot detection
+In Two-shot detection method, there are two stages involved in this method. One is region proposal and then in the second stage, the classification of those regions and refinement of the location prediction takes place.
+
+Single-shot detection skips the region proposal stage and yields final localization and content prediction at once. 
+The YOLO algorithm(You Only Look Once), deals with object detection in a different way. It is a single-shot detector(SSD).
+The biggest advantage of using YOLO is its super speed, it’s incredibly fast and can process 45 frames per second.![image](https://user-images.githubusercontent.com/93006885/138569728-33e94bf4-c13b-4bdd-98ce-4ffc3ebd06fe.png)
+
+
 # Implementation of YOLO with OpenCV:
 There are various implementations of YOLO algorithm and perhaps most popular of them is the Darknet. But here we used OpenCV to implement YOLO algorithm. Yolo can
 be applied to image file, video file or also to webcam feed. To use YOLO via OpenCV, we need three files viz -[yoloV3.weights](https://pjreddie.com/media/files/yolov3.weights), [yoloV3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) and “coco.names” . The “coco.names” file contains all the names of the labels on which this model has been trained on. First, to load the model using the function “cv2.dnn.ReadNet()”. This function loads the network into memory and automatically detects configuration and framework based on file name specified. After loading the model now either we used it to detects objects in an image or in sample video. We can even use it for real-time object detection.
