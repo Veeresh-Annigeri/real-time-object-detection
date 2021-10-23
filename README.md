@@ -11,6 +11,7 @@ When it comes to object detection, popular detection frameworks are
 There are two approaches to Object detection and they are:
 * Two-shot detection 
 * Single-shot detection
+
 In Two-shot detection method, there are two stages involved in this method. One is region proposal and then in the second stage, the classification of those regions and refinement of the location prediction takes place.
 
 Single-shot detection skips the region proposal stage and yields final localization and content prediction at once. 
