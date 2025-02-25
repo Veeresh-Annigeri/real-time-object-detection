@@ -31,10 +31,12 @@ be applied to image file, video file or also to webcam feed. To use YOLO via Ope
 ![office_result](https://user-images.githubusercontent.com/93006885/138569849-c83afeb7-0c59-4242-a030-08a8a719f70c.jpg)
 
 * Input Image2:
-![test_image21](https://user-images.githubusercontent.com/93006885/138569947-2dd95cba-7ba7-4f4d-9b5e-1578fd63e7a3.jpg)
+
+  ![test_image21](https://user-images.githubusercontent.com/93006885/138569947-2dd95cba-7ba7-4f4d-9b5e-1578fd63e7a3.jpg)
 
 * Output Image2:
-![test_image21_result](https://user-images.githubusercontent.com/93006885/138569940-8b26c651-f641-44f8-88ea-0b31d7c3bc42.jpg)
+
+  ![test_image21_result](https://user-images.githubusercontent.com/93006885/138569940-8b26c651-f641-44f8-88ea-0b31d7c3bc42.jpg)
 
 
 
